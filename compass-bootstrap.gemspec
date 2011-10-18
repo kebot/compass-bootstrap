@@ -3,15 +3,15 @@ $:.push File.expand_path("../lib", __FILE__)
 require "compass-bootstrap/version"
 
 Gem::Specification.new do |s|
-  s.name = %q{compass-bootstrap}
+  s.name = %q{compass-bootstrap-rails}
 
-  s.authors = ["Hector Bustillos"]
+  s.authors = ["Hector Bustillos", "Mario A Chavez"]
   s.date = %q{2011-09-12}
   s.description = %q{Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.}
-  s.email = %w{hector.bustillos@crowdint.com}
+  s.email = %w{mac@crowdint.com}
   s.has_rdoc = false
   s.version     = Compass::Bootstrap::VERSION
-  s.homepage    = "https://github.com/hecbuma/compass-bootstrap"
+  s.homepage    = "https://github.com/mariochavez/compass-bootstrap"
   s.summary     = %q{Compass compatible Sass port of twitter bootstrap.}
 
   s.rubyforge_project = "compass-bootstrap"
