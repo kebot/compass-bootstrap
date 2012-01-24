@@ -4,7 +4,7 @@ Twitter Bootstrap- Compass Plugin
 Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.
 It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.: <http://twitter.github.com/bootstrap/>
 
-* This plugin is consistent with 1.3.0 version of Bootstrap  
+* This plugin is consistent with 1.4.0 version of Bootstrap
 ------------------------------------------------------------
 
 This plugin adds the Bootstrap to [Compass](http://compass-style.org/).
@@ -22,7 +22,7 @@ Add compass and compass-bootstrap to the assets group in you Gemfile
     gem 'compass-bootstrap'
 
 
-Adding the Bootstrap plugin to an existing Rails 3.0 project 
+Adding the Bootstrap plugin to an existing Rails 3.0 project
 ============================================
 Add the following to your compass.rb
 
@@ -31,33 +31,33 @@ Add the following to your compass.rb
 
 Run the following on your project's directory
 
-    compass install compass-bootstrap/compass-bootstrap 
-    
+    compass install compass-bootstrap/compass-bootstrap
+
 this will add the following files to your stylesheets dir:
 
-    create sass/compass_bootstrap.scss 
-    create sass/_reset.scss 
-    create sass/_variables.scss 
-    create sass/_mixins.scss 
-    create sass/_scaffolding.scss 
-    create sass/_type.scss 
-    create sass/_tables.scss 
-    create sass/_forms.scss 
-    create sass/_patterns.scss 
-    create javascripts/bootstrap-alerts.js 
-    create javascripts/bootstrap-dropdown.js 
-    create javascripts/bootstrap-modal.js 
-    create javascripts/bootstrap-popover.js 
-    create javascripts/bootstrap-scrollspy.js 
-    create javascripts/bootstrap-tabs.js 
-    create javascripts/bootstrap-twipsy.js 
-    create stylesheets/compass_bootstrap.css 
+    create sass/compass_bootstrap.scss
+    create sass/_reset.scss
+    create sass/_variables.scss
+    create sass/_mixins.scss
+    create sass/_scaffolding.scss
+    create sass/_type.scss
+    create sass/_tables.scss
+    create sass/_forms.scss
+    create sass/_patterns.scss
+    create javascripts/bootstrap-alerts.js
+    create javascripts/bootstrap-dropdown.js
+    create javascripts/bootstrap-modal.js
+    create javascripts/bootstrap-popover.js
+    create javascripts/bootstrap-scrollspy.js
+    create javascripts/bootstrap-tabs.js
+    create javascripts/bootstrap-twipsy.js
+    create stylesheets/compass_bootstrap.css
 
 Now you can add the bootstrap style to your .scss/.sass files:
 
     @import 'compass_bootstrap';
-    
-this will make available all the classes and styles from bootstrap 
+
+this will make available all the classes and styles from bootstrap
 
 ### If you only want to add some bootstrap styles to your files, add:
 
@@ -119,7 +119,7 @@ Open _preboot.sccs and you will see the entire list of colors, you can change th
     $analog1:           spin($baseColor, 22);   // Analogs colors
     $analog2:           spin($baseColor, -22);
 
-Adding the Bootstrap plugin to an existing Rails 3.1 project 
+Adding the Bootstrap plugin to an existing Rails 3.1 project
 ============================================
 Open config/application.rb and add the following line after config.assets.enabled = true
 
