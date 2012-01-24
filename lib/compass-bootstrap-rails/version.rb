@@ -1,5 +1,5 @@
 module Compass
   module BootstrapRails
-    VERSION = "0.1.3.3"
+    VERSION = "0.1.4.0"
   end
 end
